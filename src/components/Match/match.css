@@ -9,7 +9,7 @@
 .gameBoard {
     width: 700px;
     height: 500px;
-    background-color: cornflowerblue;
+    background-color: #5bc570;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,4 +53,19 @@
     border: 2px solid black;
     border-radius: 8px;
     background-color: honeydew;
+}
+
+li {
+    border: 2px solid black;
+    margin: 2px 2px 2px 2px;
+    border-radius: 7px;
+    background-color: cornflowerblue;
+    list-style-type: none;
+    width: 190px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: #ed1f2b;
 }

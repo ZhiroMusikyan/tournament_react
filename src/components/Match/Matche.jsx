@@ -50,8 +50,9 @@ export const Match = () => {
     return (
         <div className='screen'>
             <div className='topBur'>{data.map(team => <div className='team'>{team.team_name}</div>)}</div>
+            <hr />
             {
-                win ? <h1>{win.team_name}</h1> :
+                win ? <h1>Tournament winner is {win.team_name}</h1> :
                     <>
                         <div className='gameBoard'>
                             <ul className='group_1'>
